@@ -1,7 +1,7 @@
 {
   "name": "WordPress on Heroku",
   "description": "Holy Grail WordPress project template for Heroku",
-  "repository": "https://github.com/anttiviljami/wordpress-heroku-docker-project",
+  "repository": "https://github.com/mitramejia/wordpress-heroku-docker-project",
   "keywords": ["wordpress", "aws", "s3", "mariadb", "mysql", "php", "php7"],
   "addons": [
      "heroku-redis",
