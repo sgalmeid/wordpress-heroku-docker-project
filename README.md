@@ -82,7 +82,7 @@ The script will output the values needed for Heroku config variables:
 Set up a new app on Heroku for your WordPress project. Use the values generated
 by the Cloudformation script previously
 
-<a href="https://heroku.com/deploy?template=https://github.com/anttiviljami/wordpress-heroku-docker-project" target="_blank"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/mitramejia/wordpress-heroku-docker-project" target="_blank"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 This is how your project should look like on Heroku:
 
