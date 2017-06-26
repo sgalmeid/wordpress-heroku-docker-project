@@ -1,12 +1,12 @@
 {
-  "name": "anttiviljami/wordpress-project",
+  "name": "mitramejia/wordpress-project",
   "description": "WordPress project template for Heroku and local Docker",
   "type": "project",
   "license": "GPLv3",
   "authors": [
     {
-      "name": "Viljami Kuosmanen",
-      "email": "viljami@avoinsorsa.fi"
+      "name": "Mitra Mejía",
+      "email": "mitra@mitramejia.com"
     }
   ],
   "repositories": [
@@ -28,8 +28,6 @@
     "vlucas/phpdotenv": "^2.0.1",
     "oscarotero/env": "^1.0",
     "wp-cli/wp-cli" : "*",
-    "koodimonni/composer-dropin-installer": "*",
-    "koodimonni-language/fi": "*",
     "wpackagist-theme/twentyseventeen": "*",
     "humanmade/s3-uploads": "*"
   },
@@ -41,11 +39,6 @@
       "htdocs/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
       "htdocs/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "htdocs/wp-content/themes/{$name}": ["type:wordpress-theme"]
-    },
-    "dropin-paths": {
-      "htdocs/wp-content/languages/": ["vendor:koodimonni-language"],
-      "htdocs/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
-      "htdocs/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"]
     },
     "wordpress-install-dir": "htdocs/wordpress"
   },
