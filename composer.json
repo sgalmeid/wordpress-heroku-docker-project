@@ -23,7 +23,7 @@
     "php": ">=7.0",
     "ext-gd": "*",
     "ext-redis": "*",
-    "johnpbloch/wordpress": "5.5",
+    "johnpbloch/wordpress": "5.5.1",
     "composer/installers": "v1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
     "oscarotero/env": "^1.0",
