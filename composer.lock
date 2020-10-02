@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9251cab2db003f76a0c58882c4226428",
+    "content-hash": "d96d640848540e4816b9787e3e67a0b4",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -4085,6 +4085,24 @@
             ],
             "description": "Programmatically edit a wp-config.php file.",
             "time": "2020-07-05T12:30:35+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
+            "version": "2.4.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
+                "reference": "tags/2.4.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.2.4.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
         },
         {
             "name": "wpackagist-plugin/creame-whatsapp-me",

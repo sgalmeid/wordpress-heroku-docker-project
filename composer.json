@@ -35,6 +35,7 @@
     "wpackagist-plugin/instagram-feed": "^2.4",
     "wpackagist-theme/astra": "^2.5.5",
     "wpackagist-plugin/wp-import-export-lite": "3.2.1",
+    "wpackagist-plugin/amazon-s3-and-cloudfront": "2.4.4",
     "koodimonni-language/fi": "*",
     "koodimonni-language/pt_BR": "*"
   },
