@@ -6,16 +6,13 @@
   "addons": [
      "heroku-redis",
      "papertrail",
-     "newrelic"
+     "newrelic",
+     "jawsdb"
   ],
   "env": {
     "WP_ENV": {
       "description": "Is this app for development, qa or production?",
       "value": "development"
-    },
-    "DATABASE_URL": {
-      "description": "The URL to a MySQL database",
-      "value": ""
     },
     "S3_UPLOADS_BUCKET": {
       "description": "Name of the S3 bucket used for uploads",
