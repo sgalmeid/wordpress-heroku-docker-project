@@ -94,6 +94,12 @@ define( 'S3_UPLOADS_KEY', env( 'S3_UPLOADS_KEY' ) );
 define( 'S3_UPLOADS_SECRET', env( 'S3_UPLOADS_SECRET' ) );
 define( 'S3_UPLOADS_REGION', env( 'S3_UPLOADS_REGION' ) );
 
+define( 'AS3CF_SETTINGS', serialize( array(
+  'provider' => 'aws',
+  'access-key-id' => env( 'S3_UPLOADS_KEY' ),
+  'secret-access-key' => env( 'S3_UPLOADS_SECRET' ),
+) ) );
+
 /**
  * Custom Settings
  */
