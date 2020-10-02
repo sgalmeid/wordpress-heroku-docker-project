@@ -27,18 +27,42 @@
     "composer/installers": "v1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
     "oscarotero/env": "^1.0",
-    "wp-cli/wp-cli" : "*",
+    "wp-cli/wp-cli": "^1.1.0",
     "wpackagist-theme/twentyseventeen": "*",
-    "humanmade/s3-uploads": "*"
+    "wpackagist-plugin/elementor": "3.0.10",
+    "wpackagist-plugin/essential-addons-for-elementor-lite": "^4.2.4",
+    "wpackagist-plugin/creame-whatsapp-me": "^4.0.10",
+    "wpackagist-plugin/instagram-feed": "^2.4",
+    "wpackagist-theme/astra": "^2.5.5",
+    "wpackagist-plugin/wp-import-export-lite": "3.2.1",
+    "koodimonni-language/fi": "*",
+    "koodimonni-language/pt_BR": "*"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
   },
   "extra": {
+    "dropin-paths": {
+      "htdocs/wp-content/languages/": [
+        "vendor:koodimonni-language"
+      ],
+      "htdocs/wp-content/languages/plugins/": [
+        "vendor:koodimonni-plugin-language"
+      ],
+      "htdocs/wp-content/languages/themes/": [
+        "vendor:koodimonni-theme-language"
+      ]
+    },
     "installer-paths": {
-      "htdocs/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-      "htdocs/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "htdocs/wp-content/themes/{$name}": ["type:wordpress-theme"]
+      "htdocs/wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "htdocs/wp-content/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "htdocs/wp-content/themes/{$name}": [
+        "type:wordpress-theme"
+      ]
     },
     "wordpress-install-dir": "htdocs/wordpress"
   },
