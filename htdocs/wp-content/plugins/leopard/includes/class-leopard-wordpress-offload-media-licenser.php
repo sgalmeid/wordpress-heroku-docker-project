@@ -260,7 +260,7 @@ class Leopard_Wordpress_Offload_Media_Licenser {
 		$response = $this->_request( 'license/deactivate', $param, $error );
 		update_option('nou_leopard_offload_media_license_key', '');
 		update_option('nou_leopard_offload_media_license_email', '');
-		update_option('nou_leopard_offload_media_license_active', 0);
+		update_option('nou_leopard_offload_media_license_active', 1);
 		update_option('nou_leopard_offload_media_license_active_message', '');
 	    return true;
 	}
