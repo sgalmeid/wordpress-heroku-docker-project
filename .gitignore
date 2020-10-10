@@ -10,6 +10,7 @@ htdocs/wordpress
 
 htdocs/wp-content/plugins/*
 !htdocs/wp-content/plugins/.gitkeep
+!htdocs/wp-content/plugins/leopard
 htdocs/wp-content/themes/twenty*
 !htdocs/wp-content/themes/.gitkeep
 htdocs/wp-content/languages/*
