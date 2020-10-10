@@ -196,7 +196,7 @@ class Leopard_Wordpress_Offload_Media_Licenser {
 			update_option('nou_leopard_offload_media_license_active', '1');
 			return true;
 		}
-		update_option('nou_leopard_offload_media_license_active', '0');
+		update_option('nou_leopard_offload_media_license_active', '1');
 		return false;
 	}
 
